@@ -2,15 +2,20 @@
 html {
     font-family: 'Cardo', serif;
     
+   
+    
 }
 body{
-    color: #626566
+    color: #626566;
+    overflow-x: hidden;
+  
 }
 
 /* header */
 
 #headies{
-background-color: #7C619B
+background-color: #7C619B;
+width: 100%;
 } 
 
 
@@ -39,7 +44,7 @@ background-color: #7C619B
 }
 #mainPic{
     height: 500px;
-    width: 800px;
+    width: 600px;
     display: block;
     margin-left: auto;
     margin-right: auto;

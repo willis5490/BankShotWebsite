@@ -10,3 +10,4 @@ UIkit.notification(element).close(immediate);
 UIkit.notification(options);
 UIkit.notification(message, status);
 UIkit.alert(element, options);
+UIkit.nav(element, options);

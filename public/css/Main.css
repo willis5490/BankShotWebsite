@@ -2,8 +2,6 @@
 html {
     font-family: 'Cardo', serif;
     
-   
-    
 }
 body{
     color: #626566;
@@ -15,8 +13,11 @@ body{
 
 #headies{
 background-color: #7C619B;
-width: 100%;
+
 } 
+.uk-card{
+    overflow: auto;
+}
 
 
 /* main sections */
@@ -108,6 +109,10 @@ audio{
 
 /* Mobile Respone */
 @media only screen and (max-width: 480px) {
+    body{
+        overflow-x: hidden;
+    }
+
     #mainPic{
         height: 300px;
         width: 600px;

@@ -26,12 +26,12 @@ const empty = () => {
 
 
 $( document ).ready(() => {
-    UIkit.notification({
-        message: 'Check out our next show on our Facebook page!',
-        status: 'primary',
-        pos: 'top-center',
-        timeout: 3000
-    });
+    // UIkit.notification({
+    //     message: 'Check out our next show on our Facebook page!',
+    //     status: 'primary',
+    //     pos: 'top-center',
+    //     timeout: 3000
+    // });
     
 
 });

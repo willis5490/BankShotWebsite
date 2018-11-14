@@ -1,11 +1,13 @@
 
 html {
     font-family: 'Cardo', serif;
+    width: 100%;
     
 }
 body{
     color: #626566;
     overflow-x: hidden;
+    width: 100%;
   
 }
 

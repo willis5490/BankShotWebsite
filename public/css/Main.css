@@ -1,0 +1,145 @@
+
+html {
+    font-family: 'Cardo', serif;
+    
+}
+body{
+    color: #626566
+}
+
+/* header */
+
+#headies{
+background-color: #7C619B
+} 
+
+
+/* main sections */
+.musicSection{
+    margin-top: 50px;
+}
+
+.bioSection{
+    margin-top: 50px;
+}
+
+.contactSection{
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* pictures */
+
+#bankshotMainLogo{
+    padding-bottom: 40px;
+}
+.cardPics{
+  max-width: 100%;
+  max-height: 100%
+}
+#mainPic{
+    height: 500px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.contactSection{
+    text-align: center;
+}
+#logoimage{
+    height: 65px;
+    width: 65px;
+}
+
+/* audio */
+audio{
+    height: 100px;
+    width: 300px;
+}
+
+/* section Headers */
+
+.sectionHeaders{
+    font-size: 100px;
+    text-align-last: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Monoton', cursive;
+    color: #626566;
+    text-align: center;
+}
+#mobile-links{
+   font-family: 'Monoton', cursive;
+    
+}
+
+/* footer */
+
+#footer{
+   height: 30px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #626566;
+    text-align: right;
+}
+
+
+/* button */
+#formSubmit{
+    background-color: #7C619B;
+}
+.uk-button{
+    background-color: #7C619B;
+    color:white;
+}
+
+/* modal */
+.uk-modal-header{
+    background-color: #7C619B;
+}
+
+/* Mobile Respone */
+@media only screen and (max-width: 480px) {
+    #mainPic{
+        height: 300px;
+        width: 600px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    #mobile-links{
+        font-size: 10px;
+        padding: 2px;
+        
+    }
+
+    .uk-navbar-center{
+        padding-right: 70px;
+    }
+   
+
+    .uk-navbar-right>.uk-navbar-nav>li>a{
+        padding: 6px;
+
+    }
+
+    #logoimage{
+        height: 40px;
+        width: 40px;
+    }
+
+    #mainPic{
+        margin-bottom: 75px;
+        margin-top: 100px;
+    }
+    .sectionHeaders{
+        font-size: 50px;
+        text-align-last: center;
+       
+    }
+}

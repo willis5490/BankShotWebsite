@@ -1,0 +1,29 @@
+{
+  "name": "bankshotwebsite",
+  "version": "1.0.0",
+  "description": "bankshots website",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "nodemailer": "^4.6.8",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willis5490/BankShotWebsite.git"
+  },
+  "author": "William Stearns",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willis5490/BankShotWebsite/issues"
+  },
+  "homepage": "https://github.com/willis5490/BankShotWebsite#readme"
+}

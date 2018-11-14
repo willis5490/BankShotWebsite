@@ -1,0 +1,12 @@
+UIkit.parallax(element, options);
+UIkit.grid(element, options);
+UIkit.navbar(element, options);
+UIkit.switcher(element, options);
+UIkit.formCustom(element, options);
+UIkit.img(element, options);
+UIkit.sortable(element, options);
+UIkit.modal(element, options);
+UIkit.notification(element).close(immediate);
+UIkit.notification(options);
+UIkit.notification(message, status);
+UIkit.alert(element, options);

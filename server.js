@@ -4,8 +4,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
 var path = require("path");
-var nodemailer = require("nodemailer");
-var smtpTransport = require('nodemailer-smtp-transport');
+const sgMail = require('@sendgrid/mail');
 require("dotenv").config();
 
 // Public Dir
@@ -26,33 +25,26 @@ app.get("/shows", function(req, res) {
 });
 app.post('/send-email', function(req, res) {
   console.log(req.body)
-  var mailOptions = {
-      from: req.body.name, // sender address
-      to: 'bankshotco@gmail.com', // list of receivers
-      subject: `New Message from ${req.body.name}`, // Subject line
-      text: `${req.body.name}'s message:  ${req.body.message}....................Respond to ${req.body.email}` // plaintext body
-
-  };
-      smtpTransport.sendMail(mailOptions, function(error, info) {
-       if (error) {
-           return console.log(error);
-       }
-       console.log('Message sent: ' + info.response);
-   });
-res.json('everything worked')
+  let Emial = JSON.stringify(req.body.email)
+  let Name = JSON.stringify(req.body.name)
+  let Message = JSON.stringify(req.body.message)
+ 
+  sgMail.setApiKey(process.env.MAILKEY);
+ 
+const msg = {
+  to: "bankshotco@gmail.com",
+  from: Emial,
+  subject: Name + "wrote you an email",
+  text: Message,
+  html: Name + " has a message for Bankshot. The message is:   " + Message +"  my email is " + Emial,
+  
+};
+console.log(msg.from)
+console.log(msg.text)
+sgMail.send(msg);
 });
 
 
-
-// emial setup
-// =============================================================
-var smtpTransport = nodemailer.createTransport(smtpTransport({
-  service: 'gmail',
-  auth: {
-    user: 'bankshotco@gmail.com',
-    pass: process.env.MAILPASSWORD
-  }
-}));
 
 
 

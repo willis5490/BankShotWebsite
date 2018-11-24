@@ -108,6 +108,22 @@ audio{
 .uk-modal-header{
     background-color: #7C619B;
 }
+.uk-offcanvas-bar{
+ background-color: #7C619B;
+ font-family: 'Monoton', cursive;
+ 
+}
+.uk-card-primary.uk-card-body .uk-nav-default>li.uk-active>a, .uk-card-primary>:not([class*=uk-card-media]) 
+.uk-nav-default>li.uk-active>a, .uk-card-secondary.uk-card-body .uk-nav-default>li.uk-active>a, 
+.uk-card-secondary>:not([class*=uk-card-media]) .uk-nav-default>li.uk-active>a, .uk-light .uk-nav-default>li.uk-active>a, 
+.uk-offcanvas-bar .uk-nav-default>li.uk-active>a, .uk-overlay-primary .uk-nav-default>li.uk-active>a, .uk-section-primary:not(.uk-preserve-color) 
+.uk-nav-default>li.uk-active>a, .uk-section-secondary:not(.uk-preserve-color) .uk-nav-default>li.uk-active>a, .uk-tile-primary:not(.uk-preserve-color) 
+.uk-nav-default>li.uk-active>a, .uk-tile-secondary:not(.uk-preserve-color) .uk-nav-default>li.uk-active>a {
+    color: black;
+}
+.uk-card-primary.uk-card-body .uk-nav-default .uk-nav-header, .uk-card-primary>:not([class*=uk-card-media]) .uk-nav-default .uk-nav-header, .uk-card-secondary.uk-card-body .uk-nav-default .uk-nav-header, .uk-card-secondary>:not([class*=uk-card-media]) .uk-nav-default .uk-nav-header, .uk-light .uk-nav-default .uk-nav-header, .uk-offcanvas-bar .uk-nav-default .uk-nav-header, .uk-overlay-primary .uk-nav-default .uk-nav-header, .uk-section-primary:not(.uk-preserve-color) .uk-nav-default .uk-nav-header, .uk-section-secondary:not(.uk-preserve-color) .uk-nav-default .uk-nav-header, .uk-tile-primary:not(.uk-preserve-color) .uk-nav-default .uk-nav-header, .uk-tile-secondary:not(.uk-preserve-color) .uk-nav-default .uk-nav-header {
+    color: black;
+}
 
 /* Mobile Respone */
 @media only screen and (max-width: 480px) {

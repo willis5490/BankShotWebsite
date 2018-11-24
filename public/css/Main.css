@@ -125,6 +125,10 @@ audio{
     color: black;
 }
 
+.uk-offcanvas-close{
+    color: black;
+}
+
 /* Mobile Respone */
 @media only screen and (max-width: 480px) {
     body{

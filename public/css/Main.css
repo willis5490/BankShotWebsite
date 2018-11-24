@@ -120,16 +120,19 @@ audio{
 .uk-nav-default>li.uk-active>a, .uk-section-secondary:not(.uk-preserve-color) .uk-nav-default>li.uk-active>a, .uk-tile-primary:not(.uk-preserve-color) 
 .uk-nav-default>li.uk-active>a, .uk-tile-secondary:not(.uk-preserve-color) .uk-nav-default>li.uk-active>a {
     color: black;
+    padding-top: 10px;
 }
 .uk-card-primary.uk-card-body .uk-nav-default .uk-nav-header, .uk-card-primary>:not([class*=uk-card-media]) .uk-nav-default .uk-nav-header, .uk-card-secondary.uk-card-body .uk-nav-default .uk-nav-header, .uk-card-secondary>:not([class*=uk-card-media]) .uk-nav-default .uk-nav-header, .uk-light .uk-nav-default .uk-nav-header, .uk-offcanvas-bar .uk-nav-default .uk-nav-header, .uk-overlay-primary .uk-nav-default .uk-nav-header, .uk-section-primary:not(.uk-preserve-color) .uk-nav-default .uk-nav-header, .uk-section-secondary:not(.uk-preserve-color) .uk-nav-default .uk-nav-header, .uk-tile-primary:not(.uk-preserve-color) .uk-nav-default .uk-nav-header, .uk-tile-secondary:not(.uk-preserve-color) .uk-nav-default .uk-nav-header {
     color: black;
+    padding-bottom: 10px;
 }
 
-.uk-offcanvas-close{
+.uk-card-primary.uk-card-body .uk-close, .uk-card-primary>:not([class*=uk-card-media]) .uk-close, .uk-card-secondary.uk-card-body .uk-close, .uk-card-secondary>:not([class*=uk-card-media]) .uk-close, .uk-light .uk-close, .uk-offcanvas-bar .uk-close, .uk-overlay-primary .uk-close, .uk-section-primary:not(.uk-preserve-color) .uk-close, .uk-section-secondary:not(.uk-preserve-color) .uk-close, .uk-tile-primary:not(.uk-preserve-color) .uk-close, .uk-tile-secondary:not(.uk-preserve-color) .uk-close {
     color: black;
 }
-.uk-nav-divider{
-    color: black
+.uk-card-primary.uk-card-body .uk-nav-default .uk-nav-divider, .uk-card-primary>:not([class*=uk-card-media]) .uk-nav-default .uk-nav-divider, .uk-card-secondary.uk-card-body .uk-nav-default .uk-nav-divider, .uk-card-secondary>:not([class*=uk-card-media]) .uk-nav-default .uk-nav-divider, .uk-light .uk-nav-default .uk-nav-divider, .uk-offcanvas-bar .uk-nav-default .uk-nav-divider, .uk-overlay-primary .uk-nav-default .uk-nav-divider, .uk-section-primary:not(.uk-preserve-color) .uk-nav-default .uk-nav-divider, .uk-section-secondary:not(.uk-preserve-color) .uk-nav-default .uk-nav-divider, .uk-tile-primary:not(.uk-preserve-color) .uk-nav-default .uk-nav-divider, .uk-tile-secondary:not(.uk-preserve-color) .uk-nav-default .uk-nav-divider {
+    border-top-color: black;
+    padding-bottom: 20px;
 }
 
 /* Mobile Respone */

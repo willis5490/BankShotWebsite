@@ -5,6 +5,7 @@ const bodyParser = require("body-parser");
 const app = express();
 var path = require("path");
 const sgMail = require('@sendgrid/mail');
+const request = require('request');
 require("dotenv").config();
 
 // Public Dir
@@ -45,7 +46,15 @@ sgMail.send(msg);
 });
 
 
-
+setInterval(function() {
+  request
+  .get('https://bankshot.herokuapp.com/')
+  .on('response', function(response) {
+    console.log(response.statusCode) 
+    console.log(response.headers['content-type']) 
+  })
+  
+}, 1200000);
 
 
 // Starts the server to begin listening

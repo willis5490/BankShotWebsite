@@ -6,6 +6,7 @@ const app = express();
 var path = require("path");
 const sgMail = require('@sendgrid/mail');
 const request = require('request');
+var https = require('https');
 require("dotenv").config();
 
 // Public Dir
@@ -71,9 +72,11 @@ setInterval(function() {
 const PORT = process.env.PORT || 8080;
 
 app.listen(PORT, function(error, response) {
+  var server = https.createServer(this);
   if (error) {
       console.log(error);
   }
   console.log(`Application listening on ${PORT}`);
+  return server.listen.apply(server, options);
   
 })

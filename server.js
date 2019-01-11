@@ -71,12 +71,21 @@ setInterval(function() {
 // =============================================================
 const PORT = process.env.PORT || 8080;
 
-app.listen(PORT, function(error, response) {
-  var server = https.createServer(this);
-  if (error) {
+
+
+// app.listen(PORT, function(error, response) {
+//   if (error) {
+//       console.log(error);
+//   }
+//   console.log(`Application listening on ${PORT}`);
+   
+// })
+
+
+var service = https.createServer(options, app);
+service.listen(PORT, function(error, response){
+    if (error) {
       console.log(error);
   }
   console.log(`Application listening on ${PORT}`);
-  return server.listen.apply(server, options);
-  
 })

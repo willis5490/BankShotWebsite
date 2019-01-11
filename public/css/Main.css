@@ -61,6 +61,17 @@ background-color: #7C619B;
     width: 65px;
 }
 
+/* modal */
+.denver-music{
+    float: right;
+    height: 100px;
+    width: 100px;
+}
+.uk-modal-title{
+    margin-top: -5px;
+}
+
+
 /* audio */
 audio{
     height: 100px;
@@ -180,5 +191,9 @@ audio{
         font-size: 50px;
         text-align-last: center;
        
+    }
+    /* modal */
+    .uk-modal-title{
+        font-size: 25px;
     }
 }

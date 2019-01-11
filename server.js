@@ -10,7 +10,16 @@ require("dotenv").config();
 
 // Public Dir
 // =============================================================
-app.use(express.static("public"));
+
+var options = {
+  setHeaders: function (res, path, stat) {
+    res.set({
+      'Access-Control-Allow-Origin': '*',
+      'Strict-Transport-Security': 'max-age=15780000; includeSubDomains'
+    })
+  }
+}
+app.use(express.static('public', options));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
@@ -30,7 +39,7 @@ app.post('/send-email', function(req, res) {
   let Name = JSON.stringify(req.body.name)
   let Message = JSON.stringify(req.body.message)
  
-  sgMail.setApiKey('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');
+  sgMail.setApiKey(process.env.gridpass);
  
 const msg = {
   to: "bankshotco@gmail.com",

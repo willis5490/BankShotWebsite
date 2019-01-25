@@ -34,16 +34,19 @@ app.get("/", function(req, res) {
 app.get("/shows", function(req, res) {
   res.sendFile(path.join(__dirname, "./public/show.html"));
 });
+app.get('/sitemap', (req,res)=>{
+  res.sendFile(path.join(__dirname, "./sitemap.xml"));
+})
 app.post('/send-email', function(req, res) {
   console.log(req.body)
   let Emial = JSON.stringify(req.body.email)
   let Name = JSON.stringify(req.body.name)
   let Message = JSON.stringify(req.body.message)
  
-  sgMail.setApiKey('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');
+  sgMail.setApiKey(process.env.key);
  
 const msg = {
-  to: "bankshotco@gmail.com",
+  to: "bankshotco@gmail.com", 
   from: Emial,
   subject: Name + "wrote you an email",
   text: Message,

@@ -1,0 +1,60 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+<loc>https://www.bankshotmusic.com/</loc>
+<lastmod>2019-01-25T01:05:55+00:00</lastmod>
+<image:image>
+      <image:loc>https://www.bankshotmusic.com/bankshotphoto.JPG</image:loc>
+      <image:title>Bankshot band</image:title>
+      <image:geo_location>Denver, Colorado</image:geo_location>
+</image:image>
+<image:image>
+      <image:loc>https://www.bankshotmusic.com/wills-bio-pic3.jpg</image:loc>
+      <image:title>denver music bankshot band</image:title>
+      <image:geo_location>Denver, Colorado</image:geo_location>
+</image:image>
+<image:image>
+      <image:loc>https://www.bankshotmusic.com/graham-bio-pic.jpg</image:loc>
+      <image:title>denver music bankshot band</image:title>
+      <image:geo_location>Denver, Colorado</image:geo_location>
+</image:image>
+<image:image>
+      <image:loc>https://www.bankshotmusic.com/tylers-bio-photo.jpg</image:loc>
+      <image:title>denver music bankshot band</image:title>
+      <image:geo_location>Denver, Colorado</image:geo_location>
+</image:image>
+<image:image>
+      <image:loc>https://www.bankshotmusic.com/bill-bio-pic.jpg</image:loc>
+      <image:title>denver music bankshot band</image:title>
+      <image:geo_location>Denver, Colorado</image:geo_location>
+</image:image>
+<image:image>
+      <image:loc>https://www.bankshotmusic.com/whits-bio-pic.png</image:loc>
+      <image:title>denver music bankshot band</image:title>
+      <image:geo_location>Denver, Colorado</image:geo_location>
+</image:image>
+<changefreq>monthly</changefreq>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://www.bankshotmusic.com/#music</loc>
+<lastmod>2019-01-25T01:05:55+00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://www.bankshotmusic.com/#bio</loc>
+<lastmod>2019-01-25T01:05:55+00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://www.bankshotmusic.com/#contact</loc>
+<lastmod>2019-01-25T01:05:55+00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1.0</priority>
+</url>
+</urlset>
